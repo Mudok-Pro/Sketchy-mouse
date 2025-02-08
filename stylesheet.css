@@ -15,9 +15,10 @@ body{
 
 }
 .square {
-    flex: 1 0 calc(100% / 16);
-    box-sizing:border-box;
-    border: 1px solid black ;
+    width: calc(100% / 16); 
+    height: calc(100% / 16); 
+    box-sizing: border-box;
+    border: 1px solid #ddd;
 }
 #reset {
     margin-bottom:20px; 
