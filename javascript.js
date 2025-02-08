@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             square.addEventListener('mouseover', () => {
-                let currentOpacity = parseFloat(else.target.style.opacity) || 0 ;
+                let currentOpacity = parseFloat(e.target.style.opacity) || 0 ;
                 if (currentOpacity <1) {
                     e.target.style.opacity = currentOpacity + 0.1 ;
                 }
